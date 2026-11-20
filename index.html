@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #zurag1{
+            width: 220px;
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 120px;
+        }
+
+         #zurag2{
+            width: 220px;
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 120px;
+        }
+    </style>
 </head>
 <body>
-    <h1> Привет Бүжинлхам</h1>
-    <p id="demo1"></p>
-    <p id="demo2"></p>
-    <script>
-        const points=[40,100,1,5,25,10];
-        document.getElementById("demo1").innerHTML=points;
-        points.sort(function(a,b){return a-b});
-        document.getElementsById("demo2").innerHTML=points;
-    </script>
+    <div style="width: 350px; background-image: url(road.png); height: 400px;">
+        <img id="zurag1" src="car-1.png"/>
+        <img id="zurag1" src="car-2 - Copy.png"/>
+    </div>
 </body>
 </html>
